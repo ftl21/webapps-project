@@ -307,3 +307,18 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+<?php
+
+  $server = "sql305.epizy.com";
+  $username = "epiz_31883962";
+  $password = "Gl5c5vpOjMUZTuD";
+  $dbname = "epiz_31883962_OVSInventorySystem";
+
+  $conn = mysqli_connect($server, $username, $password, $dbname);
+
+  if(!$conn){
+    die("Connection Failed!".mysqli_connect_error());
+  }
+
+  ?>
