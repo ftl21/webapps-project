@@ -20,5 +20,4 @@ A simple PHP web system for managing an inventory.
 * Access the login.php file from via browser and give _guest_ as username and _1234_ as password
 
 
-## Acknowledgments
-* Inspired by many similar projects online
+
